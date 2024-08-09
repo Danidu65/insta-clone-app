@@ -17,13 +17,299 @@ export default function App() {
         <TextInput placeholder="Search" style={styles.searchInput} />
       </View>
       <ScrollView contentContainerStyle={styles.grid}>
-        {Array(12)
+        {Array(1)
           .fill(0)
           .map((_, index) => (
             <Image
               key={index}
               source={{
-                uri: "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/344873692_718891926587895_2014352947666914133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wQ86uwAyPtEAX_14FBE&_nc_ht=scontent-atl3-2.xx&oh=00_AfDdQ9sbDVFjcKQb85rcmA92NW-YwXX4h1ULtTU0XP1bsw&oe=6538024C",
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&male",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&male&male",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&male&male&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&female&male",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&male&male&male&male",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&female&male&male&male&male",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&male&female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&female&female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=female&female&female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=female&female&female&female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&female&female&female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female&female&female&female&female&female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=female&female&female&female&female&female&female&female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=female&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female",
+              }}
+              style={styles.gridItem}
+            />
+          ))}
+          {Array(1)
+          .fill(0)
+          .map((_, index) => (
+            <Image
+              key={index}
+              source={{
+                uri: "https://xsgames.co/randomusers/avatar.php?g=male&female",
               }}
               style={styles.gridItem}
             />

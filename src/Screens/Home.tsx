@@ -13,25 +13,65 @@ import { Ionicons, AntDesign } from "@expo/vector-icons";
 const data = [
   {
     id: "1",
-    user: "ATO",
+    user: "toxic",
     image:
-      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/344873692_718891926587895_2014352947666914133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wQ86uwAyPtEAX_14FBE&_nc_ht=scontent-atl3-2.xx&oh=00_AfDdQ9sbDVFjcKQb85rcmA92NW-YwXX4h1ULtTU0XP1bsw&oe=6538024C",
+     "https://xsgames.co/randomusers/avatar.php?g=male&male",
     likes: "44,686",
     caption: "The game in Japan was amazing and I want to share some photos",
   },
   {
     id: "2",
-    user: "joshua_",
+    user: "zintax",
     image:
-      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/344873692_718891926587895_2014352947666914133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wQ86uwAyPtEAX_14FBE&_nc_ht=scontent-atl3-2.xx&oh=00_AfDdQ9sbDVFjcKQb85rcmA92NW-YwXX4h1ULtTU0XP1bsw&oe=6538024C",
+    "https://xsgames.co/randomusers/avatar.php?g=male",
     likes: "44,686",
     caption: "The game in Japan was amazing and I want to share some photos",
   },
   {
     id: "3",
-    user: "joshua_",
+    user: "ishan",
     image:
-      "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/344873692_718891926587895_2014352947666914133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wQ86uwAyPtEAX_14FBE&_nc_ht=scontent-atl3-2.xx&oh=00_AfDdQ9sbDVFjcKQb85rcmA92NW-YwXX4h1ULtTU0XP1bsw&oe=6538024C",
+    "https://xsgames.co/randomusers/avatar.php?g=female&female",
+    likes: "44,686",
+    caption: "The game in Japan was amazing and I want to share some photos",
+  },
+  {
+    id: "3",
+    user: "sonu",
+    image:
+    "https://xsgames.co/randomusers/avatar.php?g=female",
+    likes: "44,686",
+    caption: "The game in Japan was amazing and I want to share some photos",
+  },
+  {
+    id: "3",
+    user: "sonu",
+    image:
+    "https://xsgames.co/randomusers/avatar.php?g=male",
+    likes: "44,686",
+    caption: "The game in Japan was amazing and I want to share some photos",
+  },
+  {
+    id: "3",
+    user: "sonu",
+    image:
+    "https://xsgames.co/randomusers/avatar.php?g=female&male",
+    likes: "44,686",
+    caption: "The game in Japan was amazing and I want to share some photos",
+  },
+  {
+    id: "3",
+    user: "sonu",
+    image:
+    "https://xsgames.co/randomusers/avatar.php?g=male&female",
+    likes: "44,686",
+    caption: "The game in Japan was amazing and I want to share some photos",
+  },
+  {
+    id: "3",
+    user: "sonu",
+    image:
+    "https://xsgames.co/randomusers/avatar.php?g=female",
     likes: "44,686",
     caption: "The game in Japan was amazing and I want to share some photos",
   },
@@ -43,7 +83,8 @@ const InstagramFeed = ({navigation}) => {
       <View style={styles.postHeader}>
         <Image
           source={{
-            uri: "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/344873692_718891926587895_2014352947666914133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wQ86uwAyPtEAX_14FBE&_nc_ht=scontent-atl3-2.xx&oh=00_AfDdQ9sbDVFjcKQb85rcmA92NW-YwXX4h1ULtTU0XP1bsw&oe=6538024C",
+            uri:     "https://xsgames.co/randomusers/avatar.php?g=male&female&male",
+
           }}
           style={styles.userAvatar}
         />
@@ -99,7 +140,8 @@ const InstagramFeed = ({navigation}) => {
           renderItem={({ item }) => (
             <Image
               source={{
-                uri: "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/344873692_718891926587895_2014352947666914133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wQ86uwAyPtEAX_14FBE&_nc_ht=scontent-atl3-2.xx&oh=00_AfDdQ9sbDVFjcKQb85rcmA92NW-YwXX4h1ULtTU0XP1bsw&oe=6538024C",
+                uri:     "https://xsgames.co/randomusers/avatar.php?g=female&female&male&male",
+
               }}
               style={styles.story}
             />

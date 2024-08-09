@@ -9,7 +9,7 @@ const Welcome = ({navigation}) => {
         <Image
           style={styles.profileImage}
           source={{
-            uri: "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/344873692_718891926587895_2014352947666914133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wQ86uwAyPtEAX_14FBE&_nc_ht=scontent-atl3-2.xx&oh=00_AfDdQ9sbDVFjcKQb85rcmA92NW-YwXX4h1ULtTU0XP1bsw&oe=6538024C",
+            uri: "https://xsgames.co/randomusers/avatar.php?g=male&male",
           }}
         />
         <Text style={styles.username}>Toxic999+</Text>

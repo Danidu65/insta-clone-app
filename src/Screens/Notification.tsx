@@ -14,20 +14,78 @@ export default function NotificationsScreen({navigation}) {
       </View>
 
       <ScrollView>
-        <ListItem bottomDivider>
-          <Icon name="dollar" type="font-awesome" color="#000" />
-          <ListItem.Content>
-            <ListItem.Title>Monetization & shops</ListItem.Title>
-            <ListItem.Subtitle>Branded content and shopping.</ListItem.Subtitle>
-          </ListItem.Content>
-        </ListItem>
-
         <Text style={styles.sectionHeader}>Priority</Text>
 
         <ListItem bottomDivider>
           <Avatar
             source={{
-              uri: "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/344873692_718891926587895_2014352947666914133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wQ86uwAyPtEAX_14FBE&_nc_ht=scontent-atl3-2.xx&oh=00_AfDdQ9sbDVFjcKQb85rcmA92NW-YwXX4h1ULtTU0XP1bsw&oe=6538024C",
+              uri:    "https://xsgames.co/randomusers/avatar.php?g=female",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>Ishan_ started following you.</ListItem.Title>
+          </ListItem.Content>
+          <Button title="Follow" type="solid" />
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:    "https://xsgames.co/randomusers/avatar.php?g=female",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>Ishan_ started following you.</ListItem.Title>
+          </ListItem.Content>
+          <Button title="Follow" type="solid" />
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:    "https://xsgames.co/randomusers/avatar.php?g=female",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>Ishan_ started following you.</ListItem.Title>
+          </ListItem.Content>
+          <Button title="Follow" type="solid" />
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:    "https://xsgames.co/randomusers/avatar.php?g=male",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>Ishan_ started following you.</ListItem.Title>
+          </ListItem.Content>
+          <Button title="Follow" type="solid" />
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:    "https://xsgames.co/randomusers/avatar.php?g=female&male",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>Ishan_ started following you.</ListItem.Title>
+          </ListItem.Content>
+          <Button title="Follow" type="solid" />
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:    "https://xsgames.co/randomusers/avatar.php?g=male&female",
+
             }}
             rounded
           />
@@ -42,7 +100,78 @@ export default function NotificationsScreen({navigation}) {
         <ListItem bottomDivider>
           <Avatar
             source={{
-              uri: "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/344873692_718891926587895_2014352947666914133_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wQ86uwAyPtEAX_14FBE&_nc_ht=scontent-atl3-2.xx&oh=00_AfDdQ9sbDVFjcKQb85rcmA92NW-YwXX4h1ULtTU0XP1bsw&oe=6538024C",
+              uri:     "https://xsgames.co/randomusers/avatar.php?g=female&male&female",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>
+              Ishan, Dasun and 126 others liked your photo.
+            </ListItem.Title>
+          </ListItem.Content>
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:     "https://xsgames.co/randomusers/avatar.php?g=female&male",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>
+              Ishan, Dasun and 126 others liked your photo.
+            </ListItem.Title>
+          </ListItem.Content>
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:     "https://xsgames.co/randomusers/avatar.php?g=female",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>
+              Ishan, Dasun and 126 others liked your photo.
+            </ListItem.Title>
+          </ListItem.Content>
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:     "https://xsgames.co/randomusers/avatar.php?g=male",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>
+              Ishan, Dasun and 126 others liked your photo.
+            </ListItem.Title>
+          </ListItem.Content>
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:     "https://xsgames.co/randomusers/avatar.php?g=female&male&female",
+
+            }}
+            rounded
+          />
+          <ListItem.Content>
+            <ListItem.Title>
+              Ishan, Dasun and 126 others liked your photo.
+            </ListItem.Title>
+          </ListItem.Content>
+        </ListItem>
+        <ListItem bottomDivider>
+          <Avatar
+            source={{
+              uri:     "https://xsgames.co/randomusers/avatar.php?g=female&male&female",
+
             }}
             rounded
           />
